@@ -1,0 +1,398 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Jildimara Santana | Mentoria Acadêmica & Internacional</title>
+    <meta name="description"
+        content="Mentoria exclusiva para pesquisadores e profissionais focados em excelência acadêmica, sustentabilidade e carreiras internacionais.">
+
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;500;600;700;800&family=Playfair+Display:ital,wght@0,400;0,600;1,400&display=swap"
+        rel="stylesheet">
+
+    <!-- Phosphor Icons -->
+    <script src="https://unpkg.com/@phosphor-icons/web"></script>
+
+    <link rel="stylesheet" href="./css/style.css">
+</head>
+
+<body>
+    <!-- Navbar -->
+    <header class="header" id="header">
+        <nav class="nav container">
+            <a href="#" class="nav__logo">
+                <span class="logo__text">Jildimara.</span>
+            </a>
+
+            <div class="nav__menu" id="nav-menu">
+                <ul class="nav__list">
+                    <li class="nav__item"><a href="#inicio" class="nav__link active-link"
+                            data-i18n="nav_home">Início</a></li>
+                    <li class="nav__item"><a href="#sobre" class="nav__link" data-i18n="nav_about">Sobre</a></li>
+                    <li class="nav__item"><a href="#servicos" class="nav__link" data-i18n="nav_services">Serviços</a>
+                    </li>
+                    <li class="nav__item"><a href="#portfolio" class="nav__link" data-i18n="nav_timeline">Trajetória</a>
+                    </li>
+                    <li class="nav__item"><a href="#depoimentos" class="nav__link"
+                            data-i18n="nav_testimonials">Depoimentos</a></li>
+                </ul>
+                <div class="nav__close" id="nav-close">
+                    <i class="ph ph-x"></i>
+                </div>
+            </div>
+
+            <div class="nav__actions">
+                <select id="lang-select" class="lang-select">
+                    <option value="pt">PT 🇧🇷</option>
+                    <option value="en">EN 🇺🇸</option>
+                    <option value="es">ES 🇪🇸</option>
+                    <option value="fr">FR 🇫🇷</option>
+                </select>
+                <a href="#contato" class="button button--ghost nav__btn" data-i18n="nav_contact">Fale Comigo</a>
+                <div class="nav__toggle" id="nav-toggle">
+                    <i class="ph ph-list"></i>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <main class="main">
+        <!-- Hero Section -->
+        <section class="hero section" id="inicio">
+            <div class="hero__bg">
+                <img src="./assets/img/hero_bg.png" alt="Hero Background">
+                <div class="hero__overlay"></div>
+            </div>
+            <div class="hero__container container grid">
+                <div class="hero__data">
+                    <span class="hero__subtitle" data-i18n="hero_subtitle">Ciência, Inovação & Carreira Global</span>
+                    <h1 class="hero__title">
+                        <span data-i18n="hero_title_1">Conquiste seu espaço com uma carreira acadêmica </span>
+                        <span class="highlight" data-i18n="hero_title_2">internacional</span><span
+                            data-i18n="hero_title_3">.</span>
+                    </h1>
+                    <p class="hero__description" data-i18n="hero_desc">
+                        PhD em Ciência de Materiais e Pós-Doutoranda na Polytechnique Montréal. Oriento pesquisadores e
+                        profissionais a alcançarem a excelência e conquistarem oportunidades no exterior.
+                    </p>
+                    <div class="hero__buttons">
+                        <a href="#contato" class="button button--primary">
+                            <span data-i18n="hero_btn1">Agendar Mentoria</span> <i class="ph ph-arrow-right"></i>
+                        </a>
+                        <a href="#sobre" class="button button--secondary" data-i18n="hero_btn2">
+                            Conhecer Minha História
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Sobre Section -->
+        <section class="about section" id="sobre">
+            <div class="about__container container grid">
+                <div class="about__img-wrapper">
+                    <div class="about__img-box">
+                        <img src="./assets/img/jildimara.jpg" alt="Dra. Jildimara Santana" class="about__img">
+                        <div class="about__img-decoration"></div>
+                    </div>
+                </div>
+
+                <div class="about__data">
+                    <h2 class="section__title"><span data-i18n="about_title_1">Experiência global para impulsionar seus
+                        </span><span class="highlight" data-i18n="about_title_2">resultados.</span></h2>
+                    <p class="about__description" data-i18n="about_desc1">
+                        Sou Jildimara de Jesus Santana, especialista em Catálise e Hidrogênio Verde, com vasta
+                        experiência em mobilidade internacional (Canadá, França e China). Minha missão é ajudar talentos
+                        a estruturarem carreiras científicas de alto impacto.
+                    </p>
+                    <p class="about__description" data-i18n="about_desc2">
+                        Atualmente atuando como Pesquisadora e Coordenadora do programa europeu H2Excellence na
+                        Polytechnique Montréal, utilizo minha vivência prática como bolsista ELAP para guiar
+                        pesquisadores rumo ao sucesso global.
+                    </p>
+
+                    <div class="about__values">
+                        <div class="value__item">
+                            <i class="ph ph-globe-hemisphere-west highlight"></i>
+                            <div>
+                                <h3 data-i18n="about_v1_title">Visão Global</h3>
+                                <p data-i18n="about_v1_desc">Estratégias para aprovação no exterior.</p>
+                            </div>
+                        </div>
+                        <div class="value__item">
+                            <i class="ph ph-flask highlight"></i>
+                            <div>
+                                <h3 data-i18n="about_v2_title">Excelência</h3>
+                                <p data-i18n="about_v2_desc">Rigor científico e networking de alto nível.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Serviços Section -->
+        <section class="services section" id="servicos">
+            <div class="container">
+                <div class="section__header">
+                    <h2 class="section__title text-center"><span data-i18n="srv_title_1">Soluções para sua </span><span
+                            class="highlight" data-i18n="srv_title_2">Carreira Científica</span></h2>
+                    <p class="section__subtitle text-center" data-i18n="srv_subtitle">Do planejamento à aprovação em
+                        oportunidades internacionais.</p>
+                </div>
+
+                <div class="services__container grid">
+                    <!-- Service 1 -->
+                    <div class="service__card glass">
+                        <div class="service__icon">
+                            <i class="ph ph-airplane-tilt"></i>
+                        </div>
+                        <h3 class="service__title" data-i18n="srv1_title">Mentoria Internacional</h3>
+                        <p class="service__description" data-i18n="srv1_desc">Preparação intensiva para conquista de
+                            bolsas de prestígio (ELAP) e processos seletivos de Pós-Doutorado no Canadá e Europa.</p>
+                        <ul class="service__benefits">
+                            <li><i class="ph ph-check-circle"></i> <span data-i18n="srv1_b1">Revisão de
+                                    Application</span></li>
+                            <li><i class="ph ph-check-circle"></i> <span data-i18n="srv1_b2">Estratégia de Carta de
+                                    Motivação</span></li>
+                            <li><i class="ph ph-check-circle"></i> <span data-i18n="srv1_b3">Preparação para
+                                    entrevistas</span></li>
+                        </ul>
+                        <a href="#contato" class="button button--outline service__btn" data-i18n="srv1_btn">Aplicar para
+                            Mentoria</a>
+                    </div>
+
+                    <!-- Service 2 -->
+                    <div class="service__card glass">
+                        <div class="service__icon">
+                            <i class="ph ph-leaf"></i>
+                        </div>
+                        <h3 class="service__title" data-i18n="srv2_title">Consultoria H2 Verde</h3>
+                        <p class="service__description" data-i18n="srv2_desc">Direcionamento técnico especializado em
+                            síntese de nanocatalisadores, transição energética e descarbonização para projetos
+                            corporativos.</p>
+                        <ul class="service__benefits">
+                            <li><i class="ph ph-check-circle"></i> <span data-i18n="srv2_b1">Análise de Viabilidade
+                                    Técnica</span></li>
+                            <li><i class="ph ph-check-circle"></i> <span data-i18n="srv2_b2">Tecnologias de
+                                    Hidrogênio</span></li>
+                            <li><i class="ph ph-check-circle"></i> <span data-i18n="srv2_b3">Foco em Catálise
+                                    Heterogênea</span></li>
+                        </ul>
+                        <a href="#contato" class="button button--outline service__btn" data-i18n="srv2_btn">Solicitar
+                            Consultoria</a>
+                    </div>
+
+                    <!-- Service 3 -->
+                    <div class="service__card glass">
+                        <div class="service__icon">
+                            <i class="ph ph-books"></i>
+                        </div>
+                        <h3 class="service__title" data-i18n="srv3_title">Guia do Pesquisador</h3>
+                        <p class="service__description" data-i18n="srv3_desc">Acesso a E-books e Masterclasses práticas
+                            sobre como estruturar um currículo atrativo e otimizar sua produção científica.</p>
+                        <ul class="service__benefits">
+                            <li><i class="ph ph-check-circle"></i> <span data-i18n="srv3_b1">Do Lattes ao
+                                    Internacional</span></li>
+                            <li><i class="ph ph-check-circle"></i> <span data-i18n="srv3_b2">Escrita Científica de
+                                    Impacto</span></li>
+                            <li><i class="ph ph-check-circle"></i> <span data-i18n="srv3_b3">Acesso imediato</span></li>
+                        </ul>
+                        <a href="#" class="button button--outline service__btn" data-i18n="srv3_btn">Explorar
+                            Materiais</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Timeline / Trajetória Section -->
+        <section class="timeline section" id="portfolio">
+            <div class="container">
+                <div class="section__header">
+                    <h2 class="section__title text-center"><span data-i18n="time_title_1">Trajetória </span><span
+                            class="highlight" data-i18n="time_title_2">Global</span></h2>
+                    <p class="section__subtitle text-center" data-i18n="time_subtitle">De pesquisadora no Brasil à
+                        coordenação de excelência no Canadá.</p>
+                </div>
+
+                <div class="timeline__container">
+                    <div class="timeline__item glass">
+                        <div class="timeline__dot"></div>
+                        <div class="timeline__content">
+                            <span class="timeline__date" data-i18n="time1_date">2015 - 2018</span>
+                            <h3 class="timeline__title" data-i18n="time1_title">Formação & Pesquisa no Brasil</h3>
+                            <p class="timeline__text" data-i18n="time1_desc">Bacharelado em Química do Petróleo e
+                                Mestrado pela UFRN. Onde a jornada científica focada em sustentabilidade começou.</p>
+                        </div>
+                    </div>
+
+                    <div class="timeline__item glass">
+                        <div class="timeline__dot"></div>
+                        <div class="timeline__content">
+                            <span class="timeline__date" data-i18n="time2_date">2019 - 2021</span>
+                            <h3 class="timeline__title" data-i18n="time2_title">Experiência na França</h3>
+                            <p class="timeline__text" data-i18n="time2_desc">Pesquisadora Visitante na Université de
+                                Lille (França), trabalhando em projetos de ponta focados em energias renováveis.</p>
+                        </div>
+                    </div>
+
+                    <div class="timeline__item glass">
+                        <div class="timeline__dot"></div>
+                        <div class="timeline__content">
+                            <span class="timeline__date" data-i18n="time3_date">2023 - 2024</span>
+                            <h3 class="timeline__title" data-i18n="time3_title">PhD & Bolsista ELAP</h3>
+                            <p class="timeline__text" data-i18n="time3_desc">Doutorado pela UFPE com período sanduíche
+                                no Canadá através do prestigiado programa ELAP (Governo Canadense).</p>
+                        </div>
+                    </div>
+
+                    <div class="timeline__item glass">
+                        <div class="timeline__dot"></div>
+                        <div class="timeline__content">
+                            <span class="timeline__date" data-i18n="time4_date">Atual</span>
+                            <h3 class="timeline__title" data-i18n="time4_title">Pós-Doc no Canadá</h3>
+                            <p class="timeline__text" data-i18n="time4_desc">Pesquisadora de Pós-Doutorado na
+                                Polytechnique Montréal e Coordenadora do projeto europeu H2Excellence (Erasmus+).</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Depoimentos Section -->
+        <section class="testimonials section" id="depoimentos">
+            <div class="container">
+                <div class="section__header">
+                    <h2 class="section__title text-center"><span data-i18n="test_title_1">O impacto nas </span><span
+                            class="highlight" data-i18n="test_title_2">carreiras</span></h2>
+                </div>
+
+                <div class="testimonials__container grid">
+                    <div class="testimonial__card glass">
+                        <i class="ph-fill ph-quotes testimonial__quote"></i>
+                        <p class="testimonial__text" data-i18n="test1_txt">A orientação da Jildimara foi crucial para a
+                            minha aprovação na bolsa de Pós-Doc no Canadá. O nível de clareza estratégica e experiência
+                            que ela traz é inigualável.</p>
+                        <div class="testimonial__author">
+                            <div class="author__avatar">AC</div>
+                            <div class="author__info">
+                                <h4>Ana Costa</h4>
+                                <span data-i18n="test1_role">Pesquisadora Visitante</span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="testimonial__card glass">
+                        <i class="ph-fill ph-quotes testimonial__quote"></i>
+                        <p class="testimonial__text" data-i18n="test2_txt">A consultoria sobre nanocatalisadores para o
+                            projeto de Hidrogênio Verde economizou meses de pesquisa na nossa empresa. Altamente
+                            capacitada tecnicamente.</p>
+                        <div class="testimonial__author">
+                            <div class="author__avatar">LM</div>
+                            <div class="author__info">
+                                <h4>Lucas Mendes</h4>
+                                <span data-i18n="test2_role">Engenheiro de P&D</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- CTA / Contato Section -->
+        <section class="contact section" id="contato">
+            <div class="contact__container container glass-strong">
+                <div class="contact__data">
+                    <h2 class="section__title"><span data-i18n="cont_title_1">Vamos traçar sua rota </span><span
+                            class="highlight" data-i18n="cont_title_2">internacional?</span></h2>
+                    <p class="contact__description" data-i18n="cont_desc">Entre em contato para consultorias técnicas ou
+                        mentorias de carreira acadêmica.</p>
+
+                    <div class="contact__info">
+                        <a href="https://www.linkedin.com/in/jildimara-santana-29164a174/" target="_blank"
+                            class="contact__link">
+                            <i class="ph ph-linkedin-logo"></i> /jildimara-santana
+                        </a>
+                        <a href="mailto:contato@jildimarasantana.com" class="contact__link">
+                            <i class="ph ph-envelope-simple"></i> contato@jildimarasantana.com
+                        </a>
+                        <a href="#" class="contact__link">
+                            <i class="ph ph-whatsapp-logo"></i> <span data-i18n="cont_wpp">Agendar WhatsApp</span>
+                        </a>
+                    </div>
+                </div>
+
+                <form action="" class="contact__form">
+                    <div class="form__group">
+                        <input type="text" data-i18n-placeholder="cont_name" placeholder="Seu Nome Completo"
+                            class="form__input" required>
+                    </div>
+                    <div class="form__group">
+                        <input type="email" data-i18n-placeholder="cont_email" placeholder="Seu E-mail"
+                            class="form__input" required>
+                    </div>
+                    <div class="form__group">
+                        <textarea name="" id="" cols="30" rows="5" data-i18n-placeholder="cont_msg"
+                            placeholder="Fale um pouco sobre seu momento acadêmico ou necessidade..."
+                            class="form__input" required></textarea>
+                    </div>
+                    <button type="submit" class="button button--primary form__btn">
+                        <span data-i18n="cont_btn1">Enviar Mensagem</span> <i class="ph ph-paper-plane-right"></i>
+                    </button>
+                    <a href="https://calendly.com/" target="_blank" class="button button--outline form__btn mt-1">
+                        <span data-i18n="cont_btn2">Agendar Sessão Estratégica</span> <i class="ph ph-calendar"></i>
+                    </a>
+                </form>
+            </div>
+        </section>
+    </main>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="footer__container container grid">
+            <div class="footer__content">
+                <a href="#" class="footer__logo">Jildimara.</a>
+                <img src="./assets/img/Logo.png " alt="Dra. Jildimara Santana" class="footer__img">
+                <p class="footer__description" data-i18n="foot_desc">Estratégias de alto impacto para ciência, inovação
+                    e carreiras globais.</p>
+            </div>
+
+            <div class="footer__content">
+                <h3 class="footer__title" data-i18n="foot_nav">Navegação</h3>
+                <ul class="footer__links">
+                    <li><a href="#inicio" data-i18n="nav_home">Início</a></li>
+                    <li><a href="#sobre" data-i18n="nav_about">Sobre Mim</a></li>
+                    <li><a href="#servicos" data-i18n="nav_services">Mentorias</a></li>
+                </ul>
+            </div>
+
+            <div class="footer__content">
+                <h3 class="footer__title" data-i18n="foot_pol">Políticas</h3>
+                <ul class="footer__links">
+                    <li><a href="#" data-i18n="foot_term">Termos de Serviço</a></li>
+                    <li><a href="#" data-i18n="foot_priv">Privacidade</a></li>
+                </ul>
+            </div>
+
+            <div class="footer__content">
+                <h3 class="footer__title" data-i18n="foot_soc">Redes</h3>
+                <div class="footer__social">
+                    <a href="https://www.linkedin.com/in/jildimara-santana-29164a174/" target="_blank"
+                        class="footer__social-link"><i class="ph ph-linkedin-logo"></i></a>
+                    <a href="#" class="footer__social-link"><i class="ph ph-instagram-logo"></i></a>
+                </div>
+            </div>
+        </div>
+        <p class="footer__copy" data-i18n="foot_copy">&#169; 2026 Jildimara Santana. Todos os direitos reservados.</p>
+    </footer>
+
+    <!-- Main JS -->
+    <script src="./js/script.js"></script>
+</body>
+
+</html>
