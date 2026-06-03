@@ -148,7 +148,41 @@ const translations = {
         "foot_term": "Termos de Serviço",
         "foot_priv": "Privacidade",
         "foot_soc": "Redes",
-        "foot_copy": "© 2026 Jildimara Santana. Todos os direitos reservados."
+        "foot_copy": "© 2026 Jildimara Santana. Todos os direitos reservados.",
+        "nav_faq": "FAQ",
+        "hero_typing": "internacional|global|de impacto|de excelência",
+        "faq_title_1": "Perguntas ",
+        "faq_title_2": "Frequentes",
+        "faq_subtitle": "Tire suas dúvidas sobre mentorias, consultorias e processos internacionais.",
+        "faq1_q": "Como funciona a Mentoria Internacional?",
+        "faq1_a": "A mentoria é individual e personalizada. Analisamos seu currículo, definimos a melhor estratégia de candidatura (bolsas ELAP, pós-doc ou doutorado), e revisamos cartas de motivação e preparação para entrevistas.",
+        "faq2_q": "Quem pode se candidatar à bolsa ELAP no Canadá?",
+        "faq2_a": "Estudantes de graduação, mestrado e doutorado matriculados em universidades brasileiras que tenham convênio ou contato com pesquisadores de instituições canadenses. A bolsa cobre despesas de intercâmbio de pesquisa.",
+        "faq3_q": "A consultoria de Hidrogênio Verde é para empresas ou pesquisadores?",
+        "faq3_a": "A consultoria técnica atende tanto empresas que buscam desenvolver projetos de descarbonização e transição energética, quanto centros de pesquisa que necessitam de orientação técnica especializada em nanocatalisadores.",
+        "faq4_q": "Como posso agendar uma sessão estratégica?",
+        "faq4_a": "Você pode clicar nos botões de agendamento para escolher um horário disponível diretamente no meu Calendly, ou enviar uma mensagem pelo formulário de contato.",
+        "modal_title": "Mensagem Enviada!",
+        "modal_desc": "Obrigado pelo contato. Em breve responderei sua mensagem para traçarmos sua rota internacional!",
+        "modal_btn": "Fechar",
+        "nav_projects": "Projetos",
+        "stats_xp": "Anos de Pesquisa",
+        "stats_students": "Mentorados",
+        "stats_papers": "Artigos & Projetos",
+        "stats_countries": "Países de Atuação",
+        "proj_title_1": "Pesquisa & ",
+        "proj_title_2": "Projetos",
+        "proj_subtitle": "Projetos científicos e publicações de impacto internacional.",
+        "proj_f_all": "Todos",
+        "proj_f_h2": "H2 Verde & Catálise",
+        "proj_f_career": "Mentoria Acadêmica",
+        "proj_f_pub": "Publicações",
+        "proj1_title": "Programa H2Excellence",
+        "proj1_desc": "Coordenação do projeto europeu H2Excellence (Erasmus+) focado no desenvolvimento de competências de excelência para a transição energética.",
+        "proj2_title": "Nanocatalisadores Estruturados",
+        "proj2_desc": "Publicação de artigo sobre a síntese e aplicação de nanocatalisadores para processos de catálise heterogênea e produção limpa de H2.",
+        "proj3_title": "Guia Definitivo ELAP",
+        "proj3_desc": "E-books e treinamentos completos para pesquisadores e estudantes obterem aprovação no prestigiado programa de bolsas ELAP (Canadá)."
     },
     "en": {
         "nav_home": "Home",
@@ -239,7 +273,41 @@ const translations = {
         "foot_term": "Terms of Service",
         "foot_priv": "Privacy",
         "foot_soc": "Social",
-        "foot_copy": "© 2026 Jildimara Santana. All rights reserved."
+        "foot_copy": "© 2026 Jildimara Santana. All rights reserved.",
+        "nav_faq": "FAQ",
+        "hero_typing": "international|global|high-impact|with excellence",
+        "faq_title_1": "Frequently Asked ",
+        "faq_title_2": "Questions",
+        "faq_subtitle": "Find answers regarding mentorship, consulting, and international processes.",
+        "faq1_q": "How does the International Mentorship work?",
+        "faq1_a": "The mentorship is individual and personalized. We analyze your CV, define the best application strategy (ELAP scholarships, post-doc, or PhD), and review motivation letters and interview prep.",
+        "faq2_q": "Who can apply for the ELAP scholarship in Canada?",
+        "faq2_a": "Undergraduate, Master's, and PhD students enrolled in Brazilian universities that have an agreement or contact with researchers at Canadian institutions. The scholarship covers research exchange expenses.",
+        "faq3_q": "Is the Green Hydrogen consulting for companies or researchers?",
+        "faq3_a": "Technical consulting serves both companies looking to develop decarbonization and energy transition projects, and research centers that need specialized technical guidance in nanocatalysts.",
+        "faq4_q": "How can I schedule a strategic session?",
+        "faq4_a": "You can click the booking buttons to choose an available slot directly on my Calendly, or send a message via the contact form.",
+        "modal_title": "Message Sent!",
+        "modal_desc": "Thank you for reaching out. I will reply soon to plan your international journey!",
+        "modal_btn": "Close",
+        "nav_projects": "Projects",
+        "stats_xp": "Years of Research",
+        "stats_students": "Mentored",
+        "stats_papers": "Articles & Projects",
+        "stats_countries": "Countries Reached",
+        "proj_title_1": "Research & ",
+        "proj_title_2": "Projects",
+        "proj_subtitle": "Scientific projects and publications with international impact.",
+        "proj_f_all": "All",
+        "proj_f_h2": "Green H2 & Catalysis",
+        "proj_f_career": "Academic Mentoring",
+        "proj_f_pub": "Publications",
+        "proj1_title": "H2Excellence Program",
+        "proj1_desc": "Coordination of the H2Excellence European project (Erasmus+) focused on developing competencies of excellence for energy transition.",
+        "proj2_title": "Structured Nanocatalysts",
+        "proj2_desc": "Article publication on the synthesis and application of nanocatalysts for heterogeneous catalysis and clean H2 production.",
+        "proj3_title": "Ultimate ELAP Guide",
+        "proj3_desc": "E-books and comprehensive training for researchers and students to gain approval in the prestigious ELAP scholarship program (Canada)."
     },
     "es": {
         "nav_home": "Inicio",
@@ -330,7 +398,41 @@ const translations = {
         "foot_term": "Términos de Servicio",
         "foot_priv": "Privacidad",
         "foot_soc": "Redes",
-        "foot_copy": "© 2026 Jildimara Santana. Todos los derechos reservados."
+        "foot_copy": "© 2026 Jildimara Santana. Todos los derechos reservados.",
+        "nav_faq": "FAQ",
+        "hero_typing": "internacional|global|de impacto|con excelencia",
+        "faq_title_1": "Preguntas ",
+        "faq_title_2": "Frecuentes",
+        "faq_subtitle": "Resuelva sus dudas sobre mentorías, consultorías y prcesos internacionales.",
+        "faq1_q": "¿Cómo funciona la Mentoría Internacional?",
+        "faq1_a": "La mentoría es individual y personalizada. Analizamos su currículum, definimos la mejor estrategia de postulación (becas ELAP, posdoctorado o doctorado), y revisamos cartas de motivación y preparación para entrevistas.",
+        "faq2_q": "¿Quién puede postularse a la beca ELAP en Canadá?",
+        "faq2_a": "Estudiantes de grado, maestría y doctorado matriculados en universidades brasileñas que tengan convenio o contacto com investigadores en instituciones canadienses. La beca cubre los gastos de intercambio de investigación.",
+        "faq3_q": "¿La consultoría de Hidrógeno Verde es para empresas o investigadores?",
+        "faq3_a": "La consultoría técnica atiende tanto a empresas que buscan desarrollar proyectos de descarbonización y transición energética, como a centros de investigación que requieren orientación técnica especializada en nanocatalizadores.",
+        "faq4_q": "¿Cómo puedo programar una sesión estratégica?",
+        "faq4_a": "Puede hacer clic en los botones de programación para elegir un horario disponible directamente en mi Calendly, o enviar un mensaje a través del formulario de contacto.",
+        "modal_title": "¡Mensaje Enviado!",
+        "modal_desc": "Gracias por ponerse en contacto. Le responderé pronto para planificar su ruta internacional.",
+        "modal_btn": "Cerrar",
+        "nav_projects": "Proyectos",
+        "stats_xp": "Años de Investigación",
+        "stats_students": "Mentorados",
+        "stats_papers": "Artículos & Proyectos",
+        "stats_countries": "Países de Actuación",
+        "proj_title_1": "Investigación & ",
+        "proj_title_2": "Proyectos",
+        "proj_subtitle": "Proyectos científicos y publicaciones de impacto internacional.",
+        "proj_f_all": "Todos",
+        "proj_f_h2": "H2 Verde & Catálisis",
+        "proj_f_career": "Mentoría Académica",
+        "proj_f_pub": "Publicaciones",
+        "proj1_title": "Programa H2Excellence",
+        "proj1_desc": "Coordinación del proyecto europeo H2Excellence (Erasmus+) centrado en el desarrollo de capacidades de excelencia para la transición energética.",
+        "proj2_title": "Nanocatalizadores Estructurados",
+        "proj2_desc": "Publicación de artículo sobre la síntese y aplicação de nanocatalizadores para procesos de catálisis heterogênea y producción limpia de H2.",
+        "proj3_title": "Guia Definitiva ELAP",
+        "proj3_desc": "Libros electrónicos y formación integral para que investigadores y estudiantes obtengan la aprobación del prestigioso programa de becas ELAP (Canadá)."
     },
     "fr": {
         "nav_home": "Accueil",
@@ -421,7 +523,41 @@ const translations = {
         "foot_term": "Conditions de Service",
         "foot_priv": "Confidentialité",
         "foot_soc": "Réseaux",
-        "foot_copy": "© 2026 Jildimara Santana. Tous droits réservés."
+        "foot_copy": "© 2026 Jildimara Santana. Tous droits réservés.",
+        "nav_faq": "FAQ",
+        "hero_typing": "internationale|globale|d'impact|avec excellence",
+        "faq_title_1": "Questions ",
+        "faq_title_2": "Fréquentes",
+        "faq_subtitle": "Trouvez des réponses concernant le mentorat, le conseil et les processus internationaux.",
+        "faq1_q": "Comment fonctionne le Mentorat International ?",
+        "faq1_a": "Le mentorat est individuel et personnalisé. Nous analysons votre CV, définissons la meilleure stratégie de candidature (bourses PFLA, post-doc ou doctorat), et révisons les lettres de motivation et la préparation aux entretiens.",
+        "faq2_q": "Qui peut postuler à la bourse PFLA au Canada ?",
+        "faq2_a": "Étudiants de licence, maîtrise et doctorat inscrits dans des universités brésiliennes ayant un accord ou un contact avec des chercheurs d'institutions canadiennes. La bourse couvre les frais de recherche.",
+        "faq3_q": "Le conseil en Hydrogène Vert s'adresse-t-il aux entreprises ou aux chercheurs ?",
+        "faq3_a": "Le conseil technique s'adresse à la fois aux entreprises cherchant à développer des projets de décarbonation et de transition énergétique, et aux centres de recherche ayant besoin d'une expertise en nanocatalyseurs.",
+        "faq4_q": "Comment puis-je planifier une session stratégique ?",
+        "faq4_a": "Vous pouvez cliquer sur les boutons de réservation pour choisir un créneau horaire disponible directement sur mon Calendly, ou envoyer un message via le formulaire de contact.",
+        "modal_title": "Message Envoyé !",
+        "modal_desc": "Merci de m'avoir contactée. Je vous répondrai bientôt pour planifier votre parcours international !",
+        "modal_btn": "Fermer",
+        "nav_projects": "Projets",
+        "stats_xp": "Années de Recherche",
+        "stats_students": "Mentorés",
+        "stats_papers": "Articles & Projets",
+        "stats_countries": "Pays d'Activité",
+        "proj_title_1": "Recherche & ",
+        "proj_title_2": "Projets",
+        "proj_subtitle": "Projets scientifiques et publications d'impact international.",
+        "proj_f_all": "Tout",
+        "proj_f_h2": "H2 Vert & Catalyse",
+        "proj_f_career": "Mentorat Académique",
+        "proj_f_pub": "Publications",
+        "proj1_title": "Programme H2Excellence",
+        "proj1_desc": "Coordination du projet européen H2Excellence (Erasmus+) axé sur le développement de compétences d'excellence pour la transition énergétique.",
+        "proj2_title": "Nanocatalyseurs Structurés",
+        "proj2_desc": "Publication d'article sur la synthèse et l'application de nanocatalyseurs pour la catalyse hétérogène et la production propre d'H2.",
+        "proj3_title": "Guide Ultime PFLA",
+        "proj3_desc": "E-books et formations complètes pour que les chercheurs et les étudiants obtiennent l'approbation du prestigieux programme de bourses PFLA (Canada)."
     }
 };
 
@@ -429,9 +565,51 @@ const langSelect = document.getElementById('lang-select');
 const i18nElements = document.querySelectorAll('[data-i18n]');
 const i18nPlaceholders = document.querySelectorAll('[data-i18n-placeholder]');
 
+let typingInterval;
+const startTypingAnimation = (language) => {
+    clearInterval(typingInterval);
+    const typingTextEl = document.getElementById('typing-text');
+    if (!typingTextEl) return;
+    
+    const wordsString = translations[language]["hero_typing"] || "internacional|global";
+    const words = wordsString.split('|');
+    let wordIndex = 0;
+    let charIndex = words[wordIndex].length;
+    let isDeleting = true;
+    let typingSpeed = 100;
+    
+    const type = () => {
+        const currentWord = words[wordIndex];
+        if (isDeleting) {
+            typingTextEl.innerHTML = currentWord.substring(0, charIndex);
+            charIndex--;
+            typingSpeed = 50;
+        } else {
+            typingTextEl.innerHTML = currentWord.substring(0, charIndex);
+            charIndex++;
+            typingSpeed = 150;
+        }
+        
+        if (!isDeleting && charIndex > currentWord.length) {
+            isDeleting = true;
+            typingSpeed = 2000; // Pause at end
+        } else if (isDeleting && charIndex < 0) {
+            isDeleting = false;
+            wordIndex = (wordIndex + 1) % words.length;
+            charIndex = 0;
+            typingSpeed = 500; // Pause before start
+        }
+        
+        typingInterval = setTimeout(type, typingSpeed);
+    };
+    
+    typingInterval = setTimeout(type, 1000);
+};
+
 const setLanguage = (language) => {
     i18nElements.forEach(el => {
         const key = el.getAttribute('data-i18n');
+        if (key === 'hero_title_2') return; // Handled by typing animation
         if (translations[language] && translations[language][key]) {
             el.innerHTML = translations[language][key];
         }
@@ -443,6 +621,8 @@ const setLanguage = (language) => {
             el.setAttribute('placeholder', translations[language][key]);
         }
     });
+    
+    startTypingAnimation(language);
 };
 
 if (langSelect) {
@@ -453,3 +633,209 @@ if (langSelect) {
 
 // Initial setup
 setLanguage('pt');
+
+/*=============== SCROLL REVEAL ANIMATION ===============*/
+const revealElements = document.querySelectorAll('.section__title, .service__card, .timeline__item, .testimonial__card, .about__img-wrapper, .about__data');
+
+const revealCallback = (entries, observer) => {
+    entries.forEach((entry) => {
+        if (entry.isIntersecting) {
+            entry.target.classList.add('active');
+            observer.unobserve(entry.target);
+        }
+    });
+};
+
+const revealOptions = {
+    root: null,
+    rootMargin: '0px',
+    threshold: 0.15
+};
+
+const revealObserver = new IntersectionObserver(revealCallback, revealOptions);
+
+revealElements.forEach((el) => {
+    el.classList.add('reveal');
+    revealObserver.observe(el);
+});
+
+/*=============== SHOW SCROLL UP ===============*/ 
+const scrollUp = () =>{
+	const scrollUp = document.getElementById('scroll-up')
+	window.scrollY >= 350 ? scrollUp.classList.add('show-scroll')
+						  : scrollUp.classList.remove('show-scroll')
+}
+window.addEventListener('scroll', scrollUp)
+
+/*=============== FAQ ACCORDION ===============*/
+const faqItems = document.querySelectorAll('.faq__item');
+
+faqItems.forEach((item) => {
+    const faqHeader = item.querySelector('.faq__header');
+
+    faqHeader.addEventListener('click', () => {
+        const openItem = document.querySelector('.faq-open');
+
+        toggleItem(item);
+
+        if (openItem && openItem !== item) {
+            toggleItem(openItem);
+        }
+    });
+});
+
+const toggleItem = (item) => {
+    const faqContent = item.querySelector('.faq__content');
+
+    if (item.classList.contains('faq-open')) {
+        faqContent.removeAttribute('style');
+        item.classList.remove('faq-open');
+    } else {
+        faqContent.style.height = faqContent.scrollHeight + 'px';
+        faqContent.style.maxHeight = 'none';
+        item.classList.add('faq-open');
+    }
+};
+
+/*=============== CONTACT FORM SUBMISSION ===============*/
+const contactForm = document.querySelector('.contact__form');
+const contactModal = document.getElementById('contact-modal');
+const modalClose = document.getElementById('modal-close');
+const modalBtn = document.getElementById('modal-btn');
+const formBtn = document.querySelector('.form__btn');
+const formBtnText = formBtn.querySelector('span');
+const formBtnIcon = formBtn.querySelector('i');
+
+if (contactForm) {
+    contactForm.addEventListener('submit', (e) => {
+        e.preventDefault();
+        
+        // Show loading state
+        const originalText = formBtnText.innerHTML;
+        const originalIconClass = formBtnIcon.className;
+        
+        formBtnText.innerHTML = "Enviando...";
+        formBtnIcon.className = "ph ph-spinner-gap spinner";
+        formBtn.style.pointerEvents = "none";
+        formBtn.style.opacity = "0.8";
+        formBtnIcon.style.animation = "spin 1s linear infinite";
+        
+        setTimeout(() => {
+            // Reset button state
+            formBtnText.innerHTML = originalText;
+            formBtnIcon.className = originalIconClass;
+            formBtnIcon.removeAttribute('style');
+            formBtn.removeAttribute('style');
+            
+            // Show modal
+            if (contactModal) contactModal.classList.add('active-modal');
+            
+            // Reset form
+            contactForm.reset();
+        }, 1500);
+    });
+}
+
+// Modal closing logic
+const closeModal = () => {
+    if (contactModal) contactModal.classList.remove('active-modal');
+};
+
+if (modalClose) modalClose.addEventListener('click', closeModal);
+if (modalBtn) modalBtn.addEventListener('click', closeModal);
+if (contactModal) {
+    contactModal.addEventListener('click', (e) => {
+        if (e.target === contactModal) {
+            closeModal();
+        }
+    });
+}
+
+/*=============== DARK LIGHT THEME LOGIC ===============*/
+const themeButton = document.getElementById('theme-button')
+const lightTheme = 'light-theme'
+
+const selectedTheme = localStorage.getItem('selected-theme')
+
+const getCurrentTheme = () => document.body.classList.contains(lightTheme) ? 'light' : 'dark'
+
+if (selectedTheme === 'light') {
+  document.body.classList.add(lightTheme)
+  if (themeButton) {
+    themeButton.classList.replace('ph-moon', 'ph-sun')
+  }
+}
+
+if (themeButton) {
+    themeButton.addEventListener('click', () => {
+        document.body.classList.toggle(lightTheme)
+        if (document.body.classList.contains(lightTheme)) {
+            themeButton.classList.replace('ph-moon', 'ph-sun')
+        } else {
+            themeButton.classList.replace('ph-sun', 'ph-moon')
+        }
+        localStorage.setItem('selected-theme', getCurrentTheme())
+    })
+}
+
+/*=============== ANIMATED STATS COUNTER LOGIC ===============*/
+const statsNumbers = document.querySelectorAll('.stats__number');
+const statsSection = document.getElementById('stats');
+
+const countUp = (el) => {
+    const target = +el.getAttribute('data-target');
+    let count = 0;
+    const speed = target / 40; // speed of counting up
+    
+    const updateCount = () => {
+        if (count < target) {
+            count += Math.ceil(speed);
+            if (count > target) count = target;
+            el.innerHTML = count;
+            setTimeout(updateCount, 40);
+        } else {
+            el.innerHTML = target;
+        }
+    };
+    updateCount();
+};
+
+const statsObserver = new IntersectionObserver((entries) => {
+    entries.forEach((entry) => {
+        if (entry.isIntersecting) {
+            statsNumbers.forEach((num) => countUp(num));
+            statsObserver.unobserve(entry.target);
+        }
+    });
+}, { threshold: 0.2 });
+
+if (statsSection) {
+    statsObserver.observe(statsSection);
+}
+
+/*=============== PROJECTS FILTER LOGIC ===============*/
+const projectFilterItems = document.querySelectorAll('.projects__item');
+const projectCards = document.querySelectorAll('.project__card');
+
+projectFilterItems.forEach((filter) => {
+    filter.addEventListener('click', () => {
+        projectFilterItems.forEach((f) => f.classList.remove('active-project'));
+        filter.classList.add('active-project');
+        
+        const filterValue = filter.getAttribute('data-filter');
+        
+        projectCards.forEach((card) => {
+            if (filterValue === 'all') {
+                card.classList.remove('hide-project');
+                card.style.animation = 'fadeIn 0.5s ease-out';
+            } else {
+                if (card.classList.contains(filterValue.substring(1))) {
+                    card.classList.remove('hide-project');
+                    card.style.animation = 'fadeIn 0.5s ease-out';
+                } else {
+                    card.classList.add('hide-project');
+                }
+            }
+        });
+    });
+});

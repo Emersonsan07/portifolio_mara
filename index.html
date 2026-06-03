@@ -38,8 +38,12 @@
                     </li>
                     <li class="nav__item"><a href="#portfolio" class="nav__link" data-i18n="nav_timeline">Trajetória</a>
                     </li>
+                    <li class="nav__item"><a href="#projetos" class="nav__link" data-i18n="nav_projects">Projetos</a>
+                    </li>
                     <li class="nav__item"><a href="#depoimentos" class="nav__link"
                             data-i18n="nav_testimonials">Depoimentos</a></li>
+                    <li class="nav__item"><a href="#faq" class="nav__link"
+                            data-i18n="nav_faq">FAQ</a></li>
                 </ul>
                 <div class="nav__close" id="nav-close">
                     <i class="ph ph-x"></i>
@@ -53,6 +57,8 @@
                     <option value="es">ES 🇪🇸</option>
                     <option value="fr">FR 🇫🇷</option>
                 </select>
+                <!-- Theme toggle button -->
+                <i class="ph ph-moon change-theme" id="theme-button"></i>
                 <a href="#contato" class="button button--ghost nav__btn" data-i18n="nav_contact">Fale Comigo</a>
                 <div class="nav__toggle" id="nav-toggle">
                     <i class="ph ph-list"></i>
@@ -73,8 +79,7 @@
                     <span class="hero__subtitle" data-i18n="hero_subtitle">Ciência, Inovação & Carreira Global</span>
                     <h1 class="hero__title">
                         <span data-i18n="hero_title_1">Conquiste seu espaço com uma carreira acadêmica </span>
-                        <span class="highlight" data-i18n="hero_title_2">internacional</span><span
-                            data-i18n="hero_title_3">.</span>
+                        <span class="highlight-wrapper"><span class="highlight" id="typing-text" data-i18n="hero_title_2">internacional</span><span class="cursor">|</span>.</span>
                     </h1>
                     <p class="hero__description" data-i18n="hero_desc">
                         PhD em Ciência de Materiais e Pós-Doutoranda na Polytechnique Montréal. Oriento pesquisadores e
@@ -132,6 +137,36 @@
                             </div>
                         </div>
                     </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Stats Section -->
+        <section class="stats section" id="stats">
+            <div class="stats__container container grid">
+                <div class="stats__item glass">
+                    <div>
+                        <span class="stats__number" data-target="8">0</span><span class="stats__plus">+</span>
+                    </div>
+                    <p class="stats__title" data-i18n="stats_xp">Anos de Pesquisa</p>
+                </div>
+                <div class="stats__item glass">
+                    <div>
+                        <span class="stats__number" data-target="150">0</span><span class="stats__plus">+</span>
+                    </div>
+                    <p class="stats__title" data-i18n="stats_students">Mentorados</p>
+                </div>
+                <div class="stats__item glass">
+                    <div>
+                        <span class="stats__number" data-target="25">0</span><span class="stats__plus">+</span>
+                    </div>
+                    <p class="stats__title" data-i18n="stats_papers">Artigos & Projetos</p>
+                </div>
+                <div class="stats__item glass">
+                    <div>
+                        <span class="stats__number" data-target="4">0</span>
+                    </div>
+                    <p class="stats__title" data-i18n="stats_countries">Países de Atuação</p>
                 </div>
             </div>
         </section>
@@ -264,6 +299,62 @@
             </div>
         </section>
 
+        <!-- Projects Section -->
+        <section class="projects section" id="projetos">
+            <div class="container">
+                <div class="section__header">
+                    <h2 class="section__title text-center"><span data-i18n="proj_title_1">Pesquisa & </span><span class="highlight" data-i18n="proj_title_2">Projetos</span></h2>
+                    <p class="section__subtitle text-center" data-i18n="proj_subtitle">Projetos científicos e publicações de impacto internacional.</p>
+                </div>
+
+                <!-- Filters -->
+                <div class="projects__filters">
+                    <span class="projects__item active-project" data-filter="all" data-i18n="proj_f_all">Todos</span>
+                    <span class="projects__item" data-filter=".h2" data-i18n="proj_f_h2">H2 Verde & Catálise</span>
+                    <span class="projects__item" data-filter=".career" data-i18n="proj_f_career">Mentoria Acadêmica</span>
+                    <span class="projects__item" data-filter=".publication" data-i18n="proj_f_pub">Publicações</span>
+                </div>
+
+                <div class="projects__container grid">
+                    <!-- Project 1 -->
+                    <div class="project__card glass mix h2">
+                        <div class="project__img-box">
+                            <img src="./assets/img/hero_bg.png" alt="H2Excellence Project" class="project__img">
+                        </div>
+                        <div class="project__data">
+                            <span class="project__tag">Hidrogênio Verde</span>
+                            <h3 class="project__title" data-i18n="proj1_title">Programa H2Excellence</h3>
+                            <p class="project__description" data-i18n="proj1_desc">Coordenação do projeto europeu H2Excellence (Erasmus+) focado no desenvolvimento de competências de excelência para a transição energética.</p>
+                        </div>
+                    </div>
+
+                    <!-- Project 2 -->
+                    <div class="project__card glass mix h2 publication">
+                        <div class="project__img-box">
+                            <img src="./assets/img/jildimara.jpg" alt="Scientific Article" class="project__img">
+                        </div>
+                        <div class="project__data">
+                            <span class="project__tag">Artigo Científico</span>
+                            <h3 class="project__title" data-i18n="proj2_title">Nanocatalisadores Estruturados</h3>
+                            <p class="project__description" data-i18n="proj2_desc">Publicação de artigo sobre a síntese e aplicação de nanocatalisadores para processos de catálise heterogênea e produção limpa de H2.</p>
+                        </div>
+                    </div>
+
+                    <!-- Project 3 -->
+                    <div class="project__card glass mix career">
+                        <div class="project__img-box">
+                            <img src="./assets/img/course_mockup.png" alt="Mentoring" class="project__img">
+                        </div>
+                        <div class="project__data">
+                            <span class="project__tag">Carreira Internacional</span>
+                            <h3 class="project__title" data-i18n="proj3_title">Guia Definitivo ELAP</h3>
+                            <p class="project__description" data-i18n="proj3_desc">E-books e treinamentos completos para pesquisadores e estudantes obterem aprovação no prestigiado programa de bolsas ELAP (Canadá).</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
         <!-- Depoimentos Section -->
         <section class="testimonials section" id="depoimentos">
             <div class="container">
@@ -298,6 +389,58 @@
                                 <h4>Lucas Mendes</h4>
                                 <span data-i18n="test2_role">Engenheiro de P&D</span>
                             </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- FAQ Section -->
+        <section class="faq section" id="faq">
+            <div class="container">
+                <div class="section__header">
+                    <h2 class="section__title text-center"><span data-i18n="faq_title_1">Perguntas </span><span class="highlight" data-i18n="faq_title_2">Frequentes</span></h2>
+                    <p class="section__subtitle text-center" data-i18n="faq_subtitle">Tire suas dúvidas sobre mentorias, consultorias e processos internacionais.</p>
+                </div>
+
+                <div class="faq__container grid">
+                    <div class="faq__item glass">
+                        <div class="faq__header">
+                            <h3 class="faq__question" data-i18n="faq1_q">Como funciona a Mentoria Internacional?</h3>
+                            <div class="faq__icon"><i class="ph ph-plus"></i></div>
+                        </div>
+                        <div class="faq__content">
+                            <p class="faq__answer" data-i18n="faq1_a">A mentoria é individual e personalizada. Analisamos seu currículo, definimos a melhor estratégia de candidatura (bolsas ELAP, pós-doc ou doutorado), e revisamos cartas de motivação e preparação para entrevistas.</p>
+                        </div>
+                    </div>
+
+                    <div class="faq__item glass">
+                        <div class="faq__header">
+                            <h3 class="faq__question" data-i18n="faq2_q">Quem pode se candidatar à bolsa ELAP no Canadá?</h3>
+                            <div class="faq__icon"><i class="ph ph-plus"></i></div>
+                        </div>
+                        <div class="faq__content">
+                            <p class="faq__answer" data-i18n="faq2_a">Estudantes de graduação, mestrado e doutorado matriculados em universidades brasileiras que tenham convênio ou contato com pesquisadores de instituições canadenses. A bolsa cobre despesas de intercâmbio de pesquisa.</p>
+                        </div>
+                    </div>
+
+                    <div class="faq__item glass">
+                        <div class="faq__header">
+                            <h3 class="faq__question" data-i18n="faq3_q">A consultoria de Hidrogênio Verde é para empresas ou pesquisadores?</h3>
+                            <div class="faq__icon"><i class="ph ph-plus"></i></div>
+                        </div>
+                        <div class="faq__content">
+                            <p class="faq__answer" data-i18n="faq3_a">A consultoria técnica atende tanto empresas que buscam desenvolver projetos de descarbonização e transição energética, quanto centros de pesquisa que necessitam de orientação técnica especializada em nanocatalisadores.</p>
+                        </div>
+                    </div>
+
+                    <div class="faq__item glass">
+                        <div class="faq__header">
+                            <h3 class="faq__question" data-i18n="faq4_q">Como posso agendar uma sessão estratégica?</h3>
+                            <div class="faq__icon"><i class="ph ph-plus"></i></div>
+                        </div>
+                        <div class="faq__content">
+                            <p class="faq__answer" data-i18n="faq4_a">Você pode clicar nos botões de agendamento para escolher um horário disponível diretamente no meu Calendly, ou enviar uma mensagem pelo formulário de contato.</p>
                         </div>
                     </div>
                 </div>
@@ -368,6 +511,8 @@
                     <li><a href="#inicio" data-i18n="nav_home">Início</a></li>
                     <li><a href="#sobre" data-i18n="nav_about">Sobre Mim</a></li>
                     <li><a href="#servicos" data-i18n="nav_services">Mentorias</a></li>
+                    <li><a href="#projetos" data-i18n="nav_projects">Projetos</a></li>
+                    <li><a href="#faq" data-i18n="nav_faq">FAQ</a></li>
                 </ul>
             </div>
 
@@ -390,6 +535,26 @@
         </div>
         <p class="footer__copy" data-i18n="foot_copy">&#169; 2026 Jildimara Santana. Todos os direitos reservados.</p>
     </footer>
+
+    <!--========== SCROLL UP ==========-->
+    <a href="#" class="scrollup" id="scroll-up">
+        <i class="ph ph-arrow-up"></i>
+    </a>
+
+    <!--========== CONTACT MODAL ==========-->
+    <div class="contact__modal" id="contact-modal">
+        <div class="contact__modal-content glass-strong">
+            <div class="contact__modal-close" id="modal-close">
+                <i class="ph ph-x"></i>
+            </div>
+            <div class="contact__modal-icon">
+                <i class="ph ph-check-circle"></i>
+            </div>
+            <h3 class="contact__modal-title" data-i18n="modal_title">Mensagem Enviada!</h3>
+            <p class="contact__modal-description" data-i18n="modal_desc">Obrigado pelo contato. Em breve responderei sua mensagem para traçarmos sua rota internacional!</p>
+            <button class="button button--primary" id="modal-btn" data-i18n="modal_btn">Fechar</button>
+        </div>
+    </div>
 
     <!-- Main JS -->
     <script src="./js/script.js"></script>
